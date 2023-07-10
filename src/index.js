@@ -27,7 +27,7 @@ import { Amplify } from 'aws-amplify';
 import awsconfig from '/src/aws-exports';
 
 import "@aws-amplify/ui-react/styles.css";
-import { studioTheme } from "./ui-components";
+import { studioTheme } from "/src/ui-components";
 
 // styles for this kit
 import "assets/css/bootstrap.min.css";
