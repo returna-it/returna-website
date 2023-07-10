@@ -110,7 +110,7 @@ now-ui-kit-react
     │   │   ├── LandingPageHeader.js
     │   │   └── ProfilePageHeader.js
     │   └── Navbars
-    │       ├── ExamplesNavbar.js
+    │       ├── LandingNavbar.js
     │       └── IndexNavbar.js
     ├── index.js
     └── views

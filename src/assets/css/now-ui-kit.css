@@ -4469,15 +4469,15 @@ Created using IcoMoon - icomoon.io
   padding-top: 20px !important;
 }
 .navbar.bg-white:not(.navbar-transparent) a:not(.dropdown-item):not(.btn) {
-  color: #888888;
+  color: #030387;
 }
 .navbar.bg-white:not(.navbar-transparent)
   a:not(.dropdown-item):not(.btn).disabled {
   opacity: 0.5;
-  color: #888888;
+  color: #030387;
 }
 .navbar.bg-white:not(.navbar-transparent) .button-bar {
-  background: #888888;
+  background: #030387;
 }
 .navbar.bg-white:not(.navbar-transparent) .nav-item.active .nav-link:not(.btn),
 .navbar.bg-white:not(.navbar-transparent) .nav-item .nav-link:not(.btn):focus,
@@ -4490,7 +4490,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .bg-default {
-  background-color: #888888 !important;
+  background-color: #030387 !important;
 }
 
 .bg-primary {
@@ -4498,7 +4498,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .bg-info {
-  background-color: #2ca8ff !important;
+  background-color: #030387 !important;
 }
 
 .bg-success {
@@ -5350,6 +5350,7 @@ img {
   min-height: 550px;
 }
 
+
 .profile-page .profile-container {
   color: #ffffff;
 }
@@ -5697,14 +5698,34 @@ img {
   position: relative;
   overflow: hidden;
 }
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("path/to/your/image.png");
+  background-size: cover;
+  opacity: 0.5; /* Adjust the opacity to your preference */
+}
+
+.transparent-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* Additional styles for the transparent image */
+}
+
 .page-header > .content {
   margin-top: 12%;
   text-align: center;
   margin-bottom: 50px;
 }
 .page-header.page-header-small {
-  min-height: 60vh;
-  max-height: 440px;
+  min-height: 30vh;
+  max-height: 240px;
 }
 .page-header:before {
   background-color: rgba(0, 0, 0, 0.3);
@@ -6819,7 +6840,7 @@ img {
     transition: width 0.2s linear;
   }
   .burger-menu .navbar.bg-white:not(.navbar-transparent) .navbar-toggler-bar {
-    background: #888888;
+    background: #030387;
   }
   .burger-menu .top-bar {
     transform: rotate(0);
@@ -7980,8 +8001,8 @@ td.rdtYear:hover {
 }
 
 .page-header.page-header-small {
-  min-height: 60vh;
-  max-height: 640px;
+  min-height: 30vh;
+  max-height: 240px;
 }
 
 @media screen and (max-width: 991px) {
